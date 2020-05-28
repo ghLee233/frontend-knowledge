@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        hr {
+            margin: 50px 0;
+        }
+
+        .container {
+            position: relative;
+            height: 500px;
+            background-color: red;
+        }
+
+        .container .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+        .container1 {
+            position: relative;
+            height: 500px;
+            background-color: red;
+        }
+
+        .container1 .content {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            margin: -50px 0 0 -50px;
+            background-color: black;
+        }
+
+        .container2 {
+            position: relative;
+            height: 500px;
+            background-color: red;
+        }
+
+        .container2 .content {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            background-color: black;
+        }
+
+        .container3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            height: 500px;
+        }
+
+        .container3 .content {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content"></div>
+    </div>
+
+    <hr>
+
+    <div class="container1">
+        <div class="content"></div>
+    </div>
+
+    <hr>
+
+    <div class="container2">
+        <div class="content"></div>
+    </div>
+
+    <hr>
+
+    <div class="container3">
+        <div class="content"></div>
+    </div>
+
+</body>
+
+</html>
